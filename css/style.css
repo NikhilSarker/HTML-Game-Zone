@@ -193,6 +193,65 @@ header{
   
 }
 /* BANNER PART END */
+/* WE ARE GAMER PART START */
+.gamer_section{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.gamer_container{
+  display: flex;
+  align-items: center;
+  
+}
+.gamer_text{
+  text-align: right;
+}
+.gamer_text h3{
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gamer_text p{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 50px;
+}
+.know_more_btn{
+  text-align: right;
+}
+.gamer_text a{
+  padding: 20px 40px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.gamer_text a:hover{
+  background: #4EC5F7;
+  
+}
+.gamer_bottom_text p{
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+.gamer_bottom_text .special_text{
+  color: #534C64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+/* WE ARE GAMER PART END */
+/* BANNER PART END */
 
 
 /* RESPONSIVE PART START */
@@ -264,6 +323,48 @@ header{
   font-size: 16px;
 
 }
+/* WE ARE GAMER PART */
+.gamer_container{
+  flex-direction: column;
+}
+.gamer_image{
+  margin-top: 35px;
+}
+.gamer_image img{
+  width: 100%;
+}
+.gamer_text{
+  margin-top: 60px;
+  text-align: center;
+}
+.gamer_text p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.know_more_btn{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.gamer_text h3{
+  font-size: 36px;
+}
+.gamer_text p{
+  font-size: 16px;
+}
+
+.gamer_text a{
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.gamer_bottom_text p{
+  font-size: 18px;
+}
+.gamer_bottom_text .special_text{
+  font-size: 24px;
+}
+
+
 
 }
 /* FOR MOBILE DEVICE END */
@@ -330,6 +431,28 @@ header{
   padding: 15px 25px;
   font-size: 16px;
 
+}
+/* WE ARE GAMER PART */
+.gamer_container{
+  flex-direction: column;
+}
+.gamer_image{
+  margin-top: 35px;
+}
+.gamer_image img{
+  width: 100%;
+}
+.gamer_text{
+  margin-top: 60px;
+  text-align: center;
+}
+.gamer_text p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.know_more_btn{
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 }
