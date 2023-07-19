@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 /* GOOGLE FONT WORK SANS LINK END */
 
-
 /* COMMON CSS START */
 *{
   padding: 0px;
@@ -431,8 +430,6 @@ header{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
-  
 }
 .game_category_item img{
   width: 100%;
@@ -441,14 +438,12 @@ header{
   color: #0B0223;
   font-size: 20px;
   font-weight: 600;
-
 }
 .game_category_item{
   margin: 25px 15px;
   flex-basis: 17%;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 0.75rem;
   border: 3px solid transparent;
   padding: 10px 0px 10px 10px;
@@ -517,6 +512,9 @@ header{
   font-size: 18px;
   font-weight: 600;
 }
+.footer_service_item a:hover{
+  color:#F948B2;
+}
 .footer_social_item_container{
   display: flex;
   align-items: center;
@@ -555,6 +553,9 @@ header{
   font-weight: 500;
   
 }
+.footer_policy_item_container a:hover{
+  color:#F948B2 ;
+}
 .footer_copyright_text p{
   color: rgba(255, 255, 255, 0.60);
   text-align: center;
@@ -568,6 +569,7 @@ header{
 /* FOR MOBILE DEVICE START */
 
 @media screen and (max-width:575.99px){
+  /* NAVBAR PART START */
 
   .navbar_container, .nav_item_container{
     flex-direction: column;
@@ -584,13 +586,11 @@ header{
   margin-top: 25px;
   margin-bottom: 2.625rem;
  }
-/* Banner */
+/* BANNER PART START */
 .banner_container{
   height: auto;  
   flex-direction: column-reverse;
 }
-
-
 .banner_text{
   margin-top: 30px;
   width: auto;
@@ -605,15 +605,11 @@ header{
 }
 .banner_image img{
   width: 100%;
-  
-  
 }
 
 .banner_text h3{
   font-size: 24px;
   padding-top: 8rem;
-  
-  /* padding-left: 4.25rem; */
 }
 .banner_text h1{
   font-size: 50px;
@@ -632,7 +628,7 @@ header{
   font-size: 16px;
 
 }
-/* WE ARE GAMER PART */
+/* WE ARE GAMER PART START */
 .gamer_container{
   flex-direction: column;
 }
@@ -673,7 +669,7 @@ header{
   font-size: 24px;
 }
 
-/* FUNNY VIDEO PART */
+/* FUNNY VIDEO PART  START*/
 .funny_video_grid_container{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -704,9 +700,7 @@ header{
 .grid_item:first-child{
   margin-top: 0rem;
 }
-
-
-/* PLAY GAME PART */
+/* PLAY GAME PART START */
 .play_game_section{
   padding: 0rem;
 
@@ -765,7 +759,7 @@ header{
 .game_category_item:hover{
   font-size: 16px;
 }
-/* FOOTER PART */
+/* FOOTER PART START */
 .footer_service_item_container li{
   padding: 18px 0px;
   flex-basis: 50%;
@@ -793,6 +787,7 @@ header{
 /* FOR MOBILE DEVICE END */
 /* FOR TABLET DEVICE START */
 @media screen and (min-width:576px) and (max-width:767.99px){
+  /* NAVBAR PART START */
   .navbar_container, .nav_item_container{
     flex-direction: column;
   }
@@ -806,14 +801,12 @@ header{
  .follow_us_btn{
   margin-top: 25px;
  }
-/* Banner part */
-/* Banner */
+
+/* BANNER PART START */
 .banner_container{
   height: auto;  
   flex-direction: column-reverse;
 }
-
-
 .banner_text{
   margin-top: 30px;
   width: auto;
@@ -828,15 +821,11 @@ header{
 }
 .banner_image img{
   width: 100%;
-  
-  
 }
 
 .banner_text h3{
   font-size: 32px;
   padding-top: 8rem;
-  
-  /* padding-left: 4.25rem; */
 }
 .banner_text h1{
   font-size: 60px;
@@ -855,7 +844,7 @@ header{
   font-size: 16px;
 
 }
-/* WE ARE GAMER PART */
+/* WE ARE GAMER PART START */
 .gamer_container{
   flex-direction: column;
 }
@@ -878,7 +867,7 @@ header{
   text-align: center;
 }
 
-/* FUNNY VIDEO PART */
+/* FUNNY VIDEO PART START*/
 .funny_video_grid_container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -910,7 +899,7 @@ header{
   padding-bottom: 0rem;
 
 }
-/* PLAY GAME PART */
+/* PLAY GAME PART START */
 .play_game_section{
   padding: 0rem;
 
@@ -942,7 +931,7 @@ header{
   height: 250px;
 }
 
-/* GAME CATEGORY */
+/* GAME CATEGORY PART START */
 
 .game_category_item{
   margin: 25px 10px;
@@ -951,7 +940,7 @@ header{
   gap: 0.5rem;
 }
 
-/* FOOTER PART */
+/* FOOTER PART START */
 .footer_service_item_container li{
   padding: 18px 0px;
   flex-basis: 33%;
