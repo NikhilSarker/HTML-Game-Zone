@@ -420,6 +420,28 @@ header{
 }
 
 /* PLAY GAME PART END */
+/* GAME CATEGORY PART START */
+.game_category_section{
+  padding: 7.5rem 0rem;
+
+}
+.game_category_grid_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.game_category_item{
+  padding: 25px 0px;
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* GAME CATEGORY PART END */
 
 /* RESPONSIVE PART START */
 
@@ -608,7 +630,11 @@ header{
   line-height: 20px; 
 
 }
-
+/* GAME CATEGORY */
+.game_category_item{
+  flex-basis: 30%;
+  gap: 0.5rem;
+}
 }
 /* FOR MOBILE DEVICE END */
 /* FOR TABLET DEVICE START */
@@ -760,6 +786,12 @@ header{
 .small_image img{
   width: 250px;
   height: 250px;
+}
+
+/* GAME CATEGORY */
+.game_category_item{
+  flex-basis: 30%;
+  gap: 0.5rem;
 }
 }
 /* FOR TABLET DEVICE END */
