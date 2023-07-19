@@ -356,7 +356,70 @@ header{
   -ms-transition: 0.7s;
   -o-transition: 0.7s;
 }
+.Funny_video_bottom_text p{
+  padding-top: 1.5rem;
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
 /* FUNNY VIDEO PART END */
+/* PLAY GAME PART START */
+.play_game_section{
+  padding: 7.5rem 0rem;
+
+}
+.play_game_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play_game_image img{
+  width: 100%;
+}
+.play_game_text{
+  text-align: center;
+}
+.play_game_text h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; 
+  color: #0B0223;
+  
+}
+.play_game_text .title_color_text{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; 
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.play_game_text p{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; 
+  padding: 0px 220px;
+  padding-top: 1.5rem;
+
+}
+.play_game_image{
+  position: relative;
+}
+.small_image {
+  position: absolute;
+  bottom: -95px;
+  left: -175px;
+}
+.small_image img{
+  width: 300px;
+  height: 300px;
+}
+
+/* PLAY GAME PART END */
 
 /* RESPONSIVE PART START */
 
@@ -487,6 +550,65 @@ header{
   font-size: 16px;
 
 }
+.Funny_video_bottom_text p{
+  padding-top: 0.5rem;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+.grid_item{
+  margin-top: 3.5rem;
+}
+.grid_item:first-child{
+  margin-top: 0rem;
+}
+
+
+/* PLAY GAME PART */
+.play_game_section{
+  padding: 0rem;
+
+}
+.play_game_container{
+  flex-direction: column;
+}
+.play_game_text p{
+  padding: 0px 20px;
+  padding-top: 1.5rem;
+
+}
+.play_game_image{
+  text-align: end;
+  padding-top: 2rem;
+  padding-right: 10px;
+}
+.play_game_image img{
+  width: 70%;
+  
+}
+.small_image {
+  position: absolute;
+  bottom: -20px;
+  left: 60px;
+}
+.small_image img{
+  width: 150px;
+  height: 150px;
+}
+.play_game_text h3{
+  font-size: 36px;
+  
+}
+.play_game_text .title_color_text{
+  font-size: 36px;
+
+}
+.play_game_text p{
+  font-size: 16px;
+  line-height: 20px; 
+
+}
+
 }
 /* FOR MOBILE DEVICE END */
 /* FOR TABLET DEVICE START */
@@ -594,6 +716,50 @@ header{
 .funny_video_title p{
   font-size: 16px;
 
+}
+.Funny_video_bottom_text p{
+  padding-top: 0.5rem;
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+.grid_item{
+  margin-top: 3.5rem;
+}
+.funny_video_title p{
+  padding-bottom: 0rem;
+
+}
+/* PLAY GAME PART */
+.play_game_section{
+  padding: 0rem;
+
+}
+.play_game_container{
+  flex-direction: column;
+}
+.play_game_text p{
+  padding: 0px 20px;
+  padding-top: 1.5rem;
+
+}
+.play_game_image{
+  text-align: end;
+  padding-top: 2rem;
+  padding-right: 10px;
+}
+.play_game_image img{
+  width: 80%;
+  
+}
+.small_image {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
+.small_image img{
+  width: 250px;
+  height: 250px;
 }
 }
 /* FOR TABLET DEVICE END */
