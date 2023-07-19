@@ -54,7 +54,7 @@ header{
 
 }
 .logo_container .logo_text{
-  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -423,6 +423,7 @@ header{
 /* GAME CATEGORY PART START */
 .game_category_section{
   padding: 7.5rem 0rem;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 .game_category_grid_container{
@@ -431,17 +432,136 @@ header{
   align-items: center;
   flex-wrap: wrap;
   
+  
+}
+.game_category_item img{
+  width: 100%;
+}
+.game_category_item a{
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+
 }
 .game_category_item{
-  padding: 25px 0px;
-  flex-basis: 20%;
+  margin: 25px 15px;
+  flex-basis: 17%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  /* justify-content: center; */
+  gap: 0.75rem;
+  border: 3px solid transparent;
+  padding: 10px 0px 10px 10px;
+  border-radius: 50px;
+  background: #FFF;
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.game_category_item:hover{
+  cursor: pointer;
+  border: 3px solid #FF42A5;
+  font-size: 20px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* GAME CATEGORY PART END */
+/* FOOTER PART START */
+.footer_section{
+  padding-top: 7.5rem;
+  padding-bottom: 8.125rem;
+  background: #0B0223;
+}
+
+.footer_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer_logo img{
+  width: 100px;
+  object-fit: cover;
+
+}
+.footer_logo p{
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #FFF;
+
+}
+.footer_logo .logo_text{
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.footer_service_item_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer_service_item_container li{
+  padding: 60px 30px;
+}
+.footer_service_item a{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_social_item_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.footer_social_item_container li{
+  padding: 0px 20px 60px;
+}
+.footer_social_item_container a{
+  color: #FFF;
+  text-align: center;
+  font-size: 30px;
+  
+}
+.footer_social_item_container a:hover{
+  color:#F948B2;
+  
+}
+.footer_policy_item_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+.footer_policy_item_container li{
+  padding: 0px 30px 20px;
+}
+.footer_policy_item_container a{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.footer_copyright_text p{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* FOOTER PART END */
 
 /* RESPONSIVE PART START */
 
@@ -631,9 +751,43 @@ header{
 
 }
 /* GAME CATEGORY */
+
+.game_category_item a{
+  font-size: 16px;
+
+}
 .game_category_item{
-  flex-basis: 30%;
+  margin: 25px 10px;
+  flex-basis: 45%;
+  font-size: 16px;
   gap: 0.5rem;
+}
+.game_category_item:hover{
+  font-size: 16px;
+}
+/* FOOTER PART */
+.footer_service_item_container li{
+  padding: 18px 0px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.footer_logo{
+  padding-bottom: 20px;
+}
+.footer_social_item_container li{
+  padding: 30px 30px;
+  flex-basis: 33%;
+  text-align: center;
+}
+.footer_policy_item_container li{
+  padding: 15px 30px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.footer_copyright_text p{
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 }
 /* FOR MOBILE DEVICE END */
@@ -789,9 +943,37 @@ header{
 }
 
 /* GAME CATEGORY */
+
 .game_category_item{
+  margin: 25px 10px;
   flex-basis: 30%;
+  font-size: 18px;
   gap: 0.5rem;
+}
+
+/* FOOTER PART */
+.footer_service_item_container li{
+  padding: 18px 0px;
+  flex-basis: 33%;
+  text-align: center;
+}
+.footer_logo{
+  padding-bottom: 20px;
+}
+.footer_social_item_container li{
+  padding: 30px 30px;
+  flex-basis: 33%;
+  text-align: center;
+}
+.footer_policy_item_container li{
+  padding: 15px 30px;
+  flex-basis: 50%;
+  text-align: center;
+}
+.footer_copyright_text p{
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 }
 /* FOR TABLET DEVICE END */
